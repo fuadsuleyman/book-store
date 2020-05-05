@@ -44,15 +44,20 @@ export default class BookstoreService {
         getBooks() {
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
-                    if(Math.random() > 0.75) {
-                        reject (new Error('Something bad happened'))
-                    }else {
+            
                         resolve(this.data)
-                    }
+                    
                 }, 700);
             });
         }
     } 
+
+    // asagidki kimi yazilis random olaraq error page-e gonderir, setTimeout-un icine yazanda
+    // if(Math.random() > 0.75) {
+    //     reject (new Error('Something bad happened'))
+    // }else {
+    //     resolve(this.data)
+    // }
     
         
 

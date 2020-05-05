@@ -9,7 +9,6 @@ const HomePage = () => {
             <Scroll>
                 <BookList />
             </Scroll>
-
         </div>
     )
 }

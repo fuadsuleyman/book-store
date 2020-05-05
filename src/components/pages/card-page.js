@@ -1,13 +1,10 @@
 import React from 'react';
 import ShoppingCartTable from '../shopping-cart-table';
-import Scroll from '../scroll';
 
 const CardPage = (props) => {
     return (
         <div>
-            <Scroll>
-                <ShoppingCartTable />
-            </Scroll>
+            <ShoppingCartTable />
         </div>
     )
 }
