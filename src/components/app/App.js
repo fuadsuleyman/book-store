@@ -9,8 +9,8 @@ const App = () => {
     <main role='main' className='container'>
       <ShopHeader numItems={5} total={145} />
       <Switch>
-          <Route path='/' exact component={HomePage} />
-          <Route path='/card' component={CardPage} />
+          <Route path='/book-store' exact component={HomePage} />
+          <Route path='/book-store/card' component={CardPage} />
       </Switch>
     </main>
   );

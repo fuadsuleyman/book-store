@@ -8,11 +8,11 @@ const ShopHeader = ({ numItems, orderTotal }) => {
     return (
         <header className="shop-header row">
 
-            <Link to='/'>
+            <Link to='/book-store'>
                 <div className="logo text-dark">ReStore</div>
             </Link>
 
-            <Link to='/card'>
+            <Link to='/book-store/card'>
                 <div className="shopping-cart">
                     <i className="cart-icon fa fa-shopping-cart" />
                     {numItems} items (${orderTotal})
